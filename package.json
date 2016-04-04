@@ -1,0 +1,28 @@
+{
+  "name": "vote_lala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiantMing/vote_lala.git"
+  },
+  "keywords": [
+    "vote"
+  ],
+  "author": "GiantMing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiantMing/vote_lala/issues"
+  },
+  "homepage": "https://github.com/GiantMing/vote_lala#readme",
+  "dependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}
