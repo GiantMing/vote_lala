@@ -64,3 +64,11 @@ body {
 .vote_check_input:checked + .iconfont{
     color: #f11;
 }
+footer {
+    margin-top: 20px;
+    margin-bottom: 4.5em;
+    padding-top: 10px;
+    width: 100%;
+    border-top: .5px solid #e5e5e5;
+    text-align: center;
+}
