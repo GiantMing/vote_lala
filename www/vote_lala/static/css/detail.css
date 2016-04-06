@@ -1,0 +1,23 @@
+body {
+  line-height: 1.6;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+}
+.container {
+    width: 100%;
+}
+.banner_wrap img {
+    width: 100%;
+}
+.info {
+    width: 100%;
+}
+.college {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 70%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    font-size: 20px;
+}
