@@ -31,7 +31,6 @@ $('.vote_check_btn').on('click', function() {
     } else if(count.count === VOTE_NUM){
         $('#submit_btn').removeClass('weui_btn_disabled');
         youCanVoteNum(VOTE_NUM - count.count);
-
     } else if(count.count > VOTE_NUM){
         checkbox.checked = !checkbox.checked;    //手动触发checkbox的点击事件
         confirm('不能超过5票');
@@ -49,7 +48,6 @@ $('#submit_btn').on('click', function(){
     })
     $.post('url', data, function (res) {
         res = JSON.parse(res);
-
     });
 })
 
